@@ -12,7 +12,8 @@ st.set_page_config(
 )
 
 # 設定 API Key 和模型
-API_KEY = "AIzaSyAIUbETFcpfQRq6LlAPZ1SEWZRWf-wRbhI"
+# 從 Streamlit 的保險箱 (Secrets) 讀取鑰匙
+API_KEY = st.secrets["GOOGLE_API_KEY"]
 MODEL_NAME = "gemini-2.5-flash"
 
 # 系統指令 (System Instruction)
