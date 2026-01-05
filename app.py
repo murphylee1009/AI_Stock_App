@@ -14,7 +14,7 @@ st.set_page_config(
 # 設定 API Key 和模型
 # 從 Streamlit 的保險箱 (Secrets) 讀取鑰匙
 API_KEY = st.secrets["GOOGLE_API_KEY"]
-MODEL_NAME = "gemini-1.5-flash-latest"
+MODEL_NAME = "gemini-1.5-flash-002"
 
 # 系統指令 (System Instruction)
 SYSTEM_INSTRUCTION = """指令名稱：AI 股票分析師 V33.0 (三大法人與量價估值版)
